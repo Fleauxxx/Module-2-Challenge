@@ -1,0 +1,79 @@
+:root {
+    --light: #39dada;
+    --dark: rgb(28, 28, 99);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #39dada;
+    background-color: rgb(32, 51, 51);
+    margin: auto;
+       
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: rgb(28, 28, 99);
+    background-color: #39dada;
+    padding-left: 35px;
+}
+
+.header nav {
+    float: right;
+
+
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+a {
+    color: var(--light);
+}
+
+.subtitle {
+    display: inline-block;
+    font-size: 26px;
+    color: var(--dark);
+    background-color: var(--light);
+    float: right;
+    padding: 10px;
+    margin-bottom: -30px;
+}
+
+.firstimage {
+    height: 220px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/images/144754565-abstract-geometric-seamless-pattern.jpg") ;
+
+}
+
+.aboutme {
+    font-size: 50px;
+    color: var(--dark);
+    float: left:
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+}
