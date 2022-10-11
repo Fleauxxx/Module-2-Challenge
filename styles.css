@@ -122,7 +122,6 @@ p {
 
 #AboutMe {
     align-items: center;
-    flex-wrap: wrap;
     padding: 5px;
     font-size: 30px;
     border: none;
@@ -132,7 +131,6 @@ p {
 }
 
 #Work {
-    flex-wrap: wrap;
     padding: 5px;
     font-size: 30px;
     border: none;
@@ -143,7 +141,6 @@ p {
 }
 
 #ContactMe {
-    flex-wrap: wrap;
     padding: 5px;
     font-size: 30px;
     border: none;
@@ -155,7 +152,6 @@ p {
 
 #Resume {
     align-items: center;
-    flex-wrap: wrap;
     padding: 5px;
     font-size: 30px;
     border: none;
@@ -175,3 +171,4 @@ p {
     font-size: 20px;
 
 }
+
